@@ -1,4 +1,5 @@
-# SOL TOPLAYICI V2.1
+# SOL TOPLAYICI V2.2
+# V2.2: takip 30 gun (ilk 10 gun sik, sonra gunde 1 snapshot); 10 gunden sonra balina cagrisi yok, info haftalik
 # V2.1: GeckoTerminal yavaslatildi (12 sn, 429'da uyarlanir), gecko_yeni likidite on-filtresi kaldirildi
 # Solana yeni token ileri veri toplayici (GitHub Actions)
 # Evren: pair yasi <= 7 gun, likidite >= 10K USD (likidite bilgisi yoksa mcap >= 20K)
@@ -21,7 +22,8 @@ GT = "https://api.geckoterminal.com/api/v2"
 YAS_MAX_SAAT = 7 * 24
 MIN_LIQ = 10000.0
 MIN_MCAP_BC = 20000.0
-TAKIP_GUN = 10
+TAKIP_GUN = 30          # toplam takip suresi
+SIK_TAKIP_GUN = 10      # bu sureden sonra gunde 1 snapshot
 OLU_LIQ = 1000.0
 OLU_MCAP_BC = 5000.0
 
@@ -103,7 +105,7 @@ def sure_doldu():
 def istek(url):
     try:
         req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (sol-toplayici-v2.1)",
+            "User-Agent": "Mozilla/5.0 (sol-toplayici-v2.2)",
             "Accept": "application/json",
         })
         with urllib.request.urlopen(req, timeout=25) as r:
@@ -449,8 +451,10 @@ def zamani_geldi(now, x):
         ara = 0
     elif yas < 48 * 3600:
         ara = 2 * 3600 - 600
-    else:
+    elif yas < SIK_TAKIP_GUN * 86400:
         ara = 6 * 3600 - 600
+    else:
+        ara = 24 * 3600 - 600
     return now - son >= ara
 
 
@@ -567,13 +571,15 @@ def main():
         yeni_once = -int(x["ilk"])
         if si == 0:
             gorev.append((0, yeni_once, "info", t))
-        elif now - si >= 24 * 3600 - 600:
+        elif yas < SIK_TAKIP_GUN * 86400 and now - si >= 24 * 3600 - 600:
             gorev.append((3, yeni_once, "info", t))
+        elif now - si >= 7 * 86400 - 600:
+            gorev.append((4, yeni_once, "info", t))
         if so == 0:
             gorev.append((0, yeni_once, "trade", t))
         elif yas < 48 * 3600 and now - so >= 3 * 3600 - 600:
             gorev.append((1, yeni_once, "trade", t))
-        elif now - so >= 12 * 3600 - 600:
+        elif yas < SIK_TAKIP_GUN * 86400 and now - so >= 12 * 3600 - 600:
             gorev.append((2, yeni_once, "trade", t))
     gorev.sort(key=lambda g: (g[0], g[1], g[3], g[2]))
 
@@ -619,7 +625,7 @@ def main():
         len(HATA), sure]])
 
     print("=" * 46)
-    print("SOL TOPLAYICI V2.1 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
+    print("SOL TOPLAYICI V2.2 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
     print("Cagri: DS=%d GT=%d (429: %d, son ara %.1fs)" % (SAYAC["ds"], SAYAC["gt"], SAYAC["gt429"], GT_ARA[0]))
     print("Aday: %d | Yeni takip: %d | Aktif: %d" % (len(aday), len(yeniler), aktif))
     print("Snap: %d | Info: %d | Balina: %d | Cuzdan: %d | Olu: %d"
