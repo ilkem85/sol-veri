@@ -1,0 +1,2231 @@
+{
+ "schemaVersion": "1.0.0",
+ "pairs": [
+  {
+   "chainId": "solana",
+   "dexId": "pumpfun",
+   "url": "https://dexscreener.com/solana/6fi2mjp3ya6jc8rcrhtnkmucs5i9eqo5vnuzgilb5hsd",
+   "pairAddress": "6fi2MJP3yA6JC8RcrHtNkmUcs5i9Eqo5vnUZGiLb5HSd",
+   "baseToken": {
+    "address": "2kkRnf1XWneRpQC8UvZfLJteVpfPDBQYAiX38Vzspump",
+    "name": "the CAT meme",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.00000008334",
+   "priceUsd": "0.000008323",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 78.82,
+    "h6": 78.82,
+    "h1": 78.82,
+    "m5": 78.82
+   },
+   "priceChange": {},
+   "fdv": 8323.32,
+   "marketCap": 8323.32,
+   "pairCreatedAt": 1785373785000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/IgXNelQjQaFq8vQ6?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/MdscYEUo5vcy2cOD?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2kkRnf1XWneRpQC8UvZfLJteVpfPDBQYAiX38Vzspump?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://catmeme.lovable.app",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Arjancgoxr",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/Catcommuniity",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0xe41fc03e8144d6f381639c16e2fedded7772bc0232a7024891fd2ce295e7a95b",
+   "pairAddress": "0xe41fc03e8144d6f381639c16e2fedded7772bc0232a7024891fd2ce295e7a95b",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x33C042495874A5aE3FD5F367a1228631597D788c",
+    "name": "AAPL CAT",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+    "name": "Apple • Robinhood Token",
+    "symbol": "AAPL"
+   },
+   "priceNative": "0.0000002080",
+   "priceUsd": "0.00006766",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 2,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 3,
+     "sells": 4
+    },
+    "h24": {
+     "buys": 26,
+     "sells": 29
+    }
+   },
+   "volume": {
+    "h24": 5943.63,
+    "h6": 1089.1,
+    "h1": 198.04,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.91,
+    "h6": -8.73,
+    "h24": -9.15
+   },
+   "liquidity": {
+    "usd": 20849.84,
+    "base": 154058652,
+    "quote": 32.05776
+   },
+   "fdv": 67669,
+   "marketCap": 67669,
+   "pairCreatedAt": 1788493605000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/pihQZuHNl5mIHD5C?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/Bn_RM8rNIkiyjytr?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x33c042495874a5ae3fd5f367a1228631597d788c?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://www.aaplcat.com/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/cataapl?s=11",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/cataapl",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x588d7cf062f4edd7c7c7f2d66fd770e03b1ea735",
+   "pairAddress": "0x588d7cf062f4eDD7c7c7f2d66FD770e03b1eA735",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002740",
+   "priceUsd": "0.000001962",
+   "txns": {
+    "m5": {
+     "buys": 1,
+     "sells": 5
+    },
+    "h1": {
+     "buys": 30,
+     "sells": 23
+    },
+    "h6": {
+     "buys": 368,
+     "sells": 328
+    },
+    "h24": {
+     "buys": 1252,
+     "sells": 1239
+    }
+   },
+   "volume": {
+    "h24": 142236.12,
+    "h6": 39247.45,
+    "h1": 2594.94,
+    "m5": 584.31
+   },
+   "priceChange": {
+    "m5": -0.31,
+    "h1": -0.45,
+    "h6": 0.86,
+    "h24": -2.52
+   },
+   "liquidity": {
+    "usd": 538921.72,
+    "base": 120942631731,
+    "quote": 421.07872
+   },
+   "fdv": 15895009,
+   "marketCap": 15895009,
+   "pairCreatedAt": 1724336207000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x6df9adc1837bf37e0b1b943d59a7e50d9678c81b",
+   "pairAddress": "0x6DF9aDc1837Bf37E0B1b943d59A7E50D9678c81B",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002746",
+   "priceUsd": "0.000001967",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 46
+    },
+    "h6": {
+     "buys": 182,
+     "sells": 178
+    },
+    "h24": {
+     "buys": 491,
+     "sells": 655
+    }
+   },
+   "volume": {
+    "h24": 194282.41,
+    "h6": 56817.93,
+    "h1": 7668.53,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.41,
+    "h6": 1.33,
+    "h24": -2.49
+   },
+   "liquidity": {
+    "usd": 5371471.04,
+    "base": 1364984939817,
+    "quote": 3748.3573
+   },
+   "fdv": 15934040,
+   "marketCap": 15934040,
+   "pairCreatedAt": 1724335961000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "sushiswap",
+   "url": "https://dexscreener.com/robinhood/0x0a2e74f28b7a60af1b6724e12fbf0f88c205edd4",
+   "pairAddress": "0x0A2e74F28B7a60Af1b6724e12FBf0F88C205EDd4",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0xCeba75c4D1BCF24452040E98Eb3b2107A2877F36",
+    "name": "AAPL Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+    "name": "Apple • Robinhood Token",
+    "symbol": "AAPL"
+   },
+   "priceNative": "0.00000002996",
+   "priceUsd": "0.000009745",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 8,
+     "sells": 11
+    }
+   },
+   "volume": {
+    "h24": 123.09,
+    "h6": 9.1,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.43,
+    "h24": -1.54
+   },
+   "liquidity": {
+    "usd": 8757.97,
+    "base": 706386580,
+    "quote": 5.761
+   },
+   "fdv": 9378,
+   "marketCap": 9378,
+   "pairCreatedAt": 1785530509000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/MsBTVQryaj62DCZk?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/JDo_-ABEUF2b1tII?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xceba75c4d1bcf24452040e98eb3b2107a2877f36?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://www.aaplcat.com",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/CATAAPL",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/cataapl",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0x91f26a56a04aade2adc91a58b187c4713ec8e9f9",
+   "pairAddress": "0x91f26A56a04AADe2adc91a58B187C4713EC8e9F9",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x42d2159Ba64F3b3A77d2fab49E36EAE2e76e19DE",
+    "name": "Catcoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+    "name": "WETH",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000000001787",
+   "priceUsd": "0.000004392",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 116.44,
+    "h6": 114.43,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -4.41,
+    "h24": -4.41
+   },
+   "liquidity": {
+    "usd": 4674.75,
+    "base": 903990117,
+    "quote": 0.2862
+   },
+   "fdv": 4256,
+   "marketCap": 4256,
+   "pairCreatedAt": 1782989524000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/AU7yHe5fT31KnVcf?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/RnwFrfs9MaClX8Pb?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x42d2159ba64f3b3a77d2fab49e36eae2e76e19de?timestamp=1789107900000",
+    "websites": [],
+    "socials": [
+     {
+      "url": "https://x.com/catcoinrh",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/CatcoinRH",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0x4eeca29d0ad91cbf0dfc978915508d943dd6638e2c65401b261356b0929b5fd9",
+   "pairAddress": "0x4eeca29d0ad91cbf0dfc978915508d943dd6638e2c65401b261356b0929b5fd9",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x6f02944b67df2f41f8210916c4E8C0bf74d2672c",
+    "name": "CatCoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.000000001470",
+   "priceUsd": "0.000003615",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 4
+    }
+   },
+   "volume": {
+    "h24": 90.83,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -3.95
+   },
+   "liquidity": {
+    "usd": 5520.88,
+    "base": 763489737,
+    "quote": 1.1226
+   },
+   "fdv": 3616,
+   "marketCap": 3616,
+   "pairCreatedAt": 1788651133000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/T8Gy4sUHUCnC_7dw?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/fJcaA1B15pPJkTmf?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x6f02944b67df2f41f8210916c4e8c0bf74d2672c?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://bitcointalk.org/index.php?topic=380130.0",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/CryptoTezy/status/2096379715464384908",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0x00ffb0ada6ea5e7b34928516cdfa59c9dd40ac51cfc9f854941a2d5bdd77d435",
+   "pairAddress": "0x00ffb0ada6ea5e7b34928516cdfa59c9dd40ac51cfc9f854941a2d5bdd77d435",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0xEf98988A0b67cb75C811e7D57Fd1463A94d11450",
+    "name": "Feline Being",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+    "name": "Global Dollar",
+    "symbol": "USDG"
+   },
+   "priceNative": "0.000002980",
+   "priceUsd": "0.000002980",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 11
+    }
+   },
+   "volume": {
+    "h24": 323.38,
+    "h6": 4.82,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.43,
+    "h24": -11.69
+   },
+   "liquidity": {
+    "usd": 4436.87,
+    "base": 744225998,
+    "quote": 2218.4396
+   },
+   "fdv": 2981,
+   "marketCap": 2981,
+   "pairCreatedAt": 1788196771000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/GOH9xsIv10M2rNaK?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/0ErmkmT7uuoCwf1O?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xef98988a0b67cb75c811e7d57fd1463a94d11450?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://assets.ctfassets.net/5ft2qdzfrz9o/3d7yIRuGOn5qbSn3CBepJ6/91fff7e566264e5aeaab892351c0467d/Options_Agreement.pdf",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/i/communities/2001730508758434202",
+      "type": "twitter"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "meteora",
+   "url": "https://dexscreener.com/solana/bzzfqwcoatke8kaxnsovjsxkuduvanvgnsguuizcfv2c",
+   "pairAddress": "BzZFqwcoATKE8KAXNsoVJsxkUdUVAnvGNsGUuizcFv2C",
+   "labels": [
+    "DLMM"
+   ],
+   "baseToken": {
+    "address": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
+    "name": "The Black Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.0000004476",
+   "priceUsd": "0.00004437",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1751,
+     "sells": 1491
+    }
+   },
+   "volume": {
+    "h24": 103199.51,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -4.24
+   },
+   "liquidity": {
+    "usd": 23969.65,
+    "base": 60245030,
+    "quote": 214.81
+   },
+   "fdv": 42873,
+   "marketCap": 42873,
+   "pairCreatedAt": 1788941779000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/8MOs-btdP4aEG1tA?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/LuIY0wFIx-858Q0y?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://blackcatsol.xyz",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Abyss_Trench",
+      "type": "twitter"
+     }
+    ]
+   },
+   "boosts": {
+    "active": 500
+   }
+  },
+  {
+   "chainId": "ink",
+   "dexId": "inkyswap",
+   "url": "https://dexscreener.com/ink/0x46c87b2b61c12fbe972c64131861cc44bf8e80b6",
+   "pairAddress": "0x46C87B2b61C12FBE972C64131861Cc44bf8e80b6",
+   "baseToken": {
+    "address": "0x20C69C12abf2B6F8D8ca33604DD25C700c7e70A5",
+    "name": "Cat Call Agent",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000006427",
+   "priceUsd": "0.001587",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 13,
+     "sells": 33
+    }
+   },
+   "volume": {
+    "h24": 2096.29,
+    "h6": 3,
+    "h1": 0.01,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.66,
+    "h6": 0.23,
+    "h24": 25.11
+   },
+   "liquidity": {
+    "usd": 35016.54,
+    "base": 11028644,
+    "quote": 7.08839
+   },
+   "fdv": 1587527,
+   "marketCap": 1587527,
+   "pairCreatedAt": 1737984996000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/f303fbfc0392462fbc0539e3ea64971a1187a8706d4d4aec512e7b2099255d6a?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/5d3bac3917df3d5399210fed59ce6269686526d4e34e626da8c0fe5cf6d70a15?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ink/0x20c69c12abf2b6f8d8ca33604dd25c700c7e70a5?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://explorer.inkonchain.com/token/0x20C69C12abf2B6F8D8ca33604DD25C700c7e70A5",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/CatCallAgent",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/CatCallAgent",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "raydium",
+   "url": "https://dexscreener.com/solana/axpuepytfjx3emdtmtcmi3x3pato2v74vesj9sckgmy3",
+   "pairAddress": "AxPuePyTfJx3eMDtmtCMi3X3pAto2V74VeSJ9SCKgmY3",
+   "labels": [
+    "CPMM"
+   ],
+   "baseToken": {
+    "address": "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse",
+    "name": "Simon's Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.00000001987",
+   "priceUsd": "0.000001986",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 5
+    },
+    "h6": {
+     "buys": 8,
+     "sells": 9
+    },
+    "h24": {
+     "buys": 60,
+     "sells": 23
+    }
+   },
+   "volume": {
+    "h24": 586.6,
+    "h6": 193.03,
+    "h1": 34.38,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.2,
+    "h6": 2.37,
+    "h24": -1.47
+   },
+   "liquidity": {
+    "usd": 35708.09,
+    "base": 8988698236,
+    "quote": 178.6834
+   },
+   "fdv": 164459,
+   "marketCap": 14902896,
+   "pairCreatedAt": 1731947768000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/484f16e1b5e6009a69d607ceaa517431ff9abcb8752b4402828e6322d4d999f0?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "solana",
+   "dexId": "orca",
+   "url": "https://dexscreener.com/solana/dhpywihsrcptdwhkq7u9gxafrfn4zo3o8sefgcpg6o5c",
+   "pairAddress": "DhPYWihSRCPTDwhkQ7u9gXAFrfn4zo3o8SefgcPG6o5c",
+   "labels": [
+    "wp"
+   ],
+   "baseToken": {
+    "address": "8cZUT4yyBmDhtX9K2955DvYHWXEDX5aUTkdPiwJBwtH2",
+    "name": "Simon's Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "name": "USD Coin",
+    "symbol": "USDC"
+   },
+   "priceNative": "0.000005825",
+   "priceUsd": "0.000005825",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 3.99,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -0.04
+   },
+   "liquidity": {
+    "usd": 51423264.87,
+    "base": 8826687200935,
+    "quote": 19.5672
+   },
+   "fdv": 52432945,
+   "marketCap": 52432945,
+   "pairCreatedAt": 1761532646000
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x51d6e1dbe1bd149259a17594e1394de7634241ce",
+   "pairAddress": "0x51d6E1dbe1Bd149259A17594e1394dE7634241ce",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x0173295183685F27C84db046B5F0bea3e683c24b",
+    "name": "Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000000000003204",
+   "priceUsd": "0.0000000002293",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 6
+    }
+   },
+   "volume": {
+    "h24": 71.85,
+    "h6": 14.59,
+    "h1": 0.09,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 0.53,
+    "h6": 0.13,
+    "h24": -0.49
+   },
+   "liquidity": {
+    "usd": 265077.24,
+    "base": 577829817518319,
+    "quote": 185.1718
+   },
+   "fdv": 226823,
+   "marketCap": 94301,
+   "pairCreatedAt": 1655305210000
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xe87e0be74368c8e153771dd4b2dee3ad3626fc4f",
+   "pairAddress": "0xE87E0be74368C8E153771Dd4B2dee3aD3626FC4f",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",
+    "name": "Catcoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000000000000008852",
+   "priceUsd": "0.00000000002177",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 4.16,
+    "h6": 4.16,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -0.1,
+    "h24": -0.1
+   },
+   "liquidity": {
+    "usd": 199798.93,
+    "base": 4587432678162966,
+    "quote": 40.6114
+   },
+   "fdv": 228645,
+   "marketCap": 228645,
+   "pairCreatedAt": 1686108491000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/a66fd93031445df2d967489c478730ea41d6280ed796c51fe91539dcb9c7cbd4?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/619648bd0566d70bd63c84e03b84facb42e76aaf0f5ee1d8d9feb6b518260894?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://catcoin.com/eth/",
+      "label": "Website"
+     },
+     {
+      "url": "https://facebook.com/catcoincash",
+      "label": "Facebook"
+     },
+     {
+      "url": "https://instagram.com/catcoincash",
+      "label": "Insta"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/catethz",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/catcoincash",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0x613212361fc76bc02a0de2a30f36491bf7a5d305",
+   "pairAddress": "0x613212361Fc76bc02a0De2a30f36491Bf7A5d305",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x122303734c898e9d233afFc234271f04E42E77aD",
+    "name": "Maxwell the cat",
+    "symbol": "Cat"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.00000003522",
+   "priceUsd": "0.00008709",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 971.18,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 0.25
+   },
+   "liquidity": {
+    "usd": 68236.46,
+    "base": 391737229,
+    "quote": 13.7974
+   },
+   "fdv": 87095,
+   "marketCap": 87095,
+   "pairCreatedAt": 1675551599000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/706feea5f055d28548dea00f07bc3e8cfa4cbf495468d3fd45b6ff185bdda3e4?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/50b248ffb006dfd56c4983650b51a36a452481c87c48f37e7a2a6e5caf67293c?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x122303734c898e9d233affc234271f04e42e77ad?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://maxwellthecat.info/",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/MaxwellCatToken",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/MaxwellCommunity",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0xa4a4dea76d42294bf90b6ad01f9a61163a399a71",
+   "pairAddress": "0xa4A4dea76d42294bF90B6AD01F9a61163a399a71",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x1197D6F948b6C4BE5b76087F3C2564AD705Cb42A",
+    "name": "Black Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+    "name": "WETH",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.0000001999",
+   "priceUsd": "0.0004890",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 0.01,
+    "h6": 0.01,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 415667.87,
+    "base": 850000049,
+    "quote": 1.156e-05
+   },
+   "fdv": 489021,
+   "marketCap": 489021,
+   "pairCreatedAt": 1784538890000
+  },
+  {
+   "chainId": "ethereum",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/ethereum/0xec9d48f26c02da3f7936d419af2ebce00aed002e",
+   "pairAddress": "0xec9D48f26c02DA3f7936d419af2EbcE00AED002e",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x719284D50337772D806DC5d0234ec857d223a3aA",
+    "name": "Catecoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+   },
+   "priceNative": "0.000009025",
+   "priceUsd": "0.02223",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 0
+    }
+   },
+   "volume": {
+    "h24": 0.02,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {},
+   "liquidity": {
+    "usd": 16075333.07,
+    "base": 723123323,
+    "quote": 4e-05
+   },
+   "fdv": 21433777,
+   "marketCap": 21433777,
+   "pairCreatedAt": 1787700107000
+  },
+  {
+   "chainId": "solana",
+   "dexId": "pumpswap",
+   "url": "https://dexscreener.com/solana/anl7zgja9pqqjcuspapy32w3varmwktezquuzf2kysw8",
+   "pairAddress": "AnL7ZGja9PQQJCUSPAPY32W3VaRmWkTeZquUZF2KYsW8",
+   "baseToken": {
+    "address": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
+    "name": "The Black Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "So11111111111111111111111111111111111111112",
+    "name": "Wrapped SOL",
+    "symbol": "SOL"
+   },
+   "priceNative": "0.00000003325",
+   "priceUsd": "0.000003320",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 4
+    },
+    "h6": {
+     "buys": 1018,
+     "sells": 42
+    },
+    "h24": {
+     "buys": 1158,
+     "sells": 189
+    }
+   },
+   "volume": {
+    "h24": 17137.75,
+    "h6": 8028.76,
+    "h1": 84.77,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -4.09,
+    "h6": -92.8,
+    "h24": -92.88
+   },
+   "liquidity": {
+    "usd": 3083.12,
+    "base": 725618106,
+    "quote": 6.7494
+   },
+   "fdv": 3208,
+   "marketCap": 3208,
+   "pairCreatedAt": 1788931045000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/8MOs-btdP4aEG1tA?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/LuIY0wFIx-858Q0y?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://blackcatsol.xyz",
+      "label": "Website"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/Abyss_Trench",
+      "type": "twitter"
+     }
+    ]
+   },
+   "boosts": {
+    "active": 500
+   }
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0xf3258c02285608fc5692409fb3911c3949f9a4786adcaa90ce405ee64d16c84b",
+   "pairAddress": "0xf3258c02285608fc5692409fb3911c3949f9a4786adcaa90ce405ee64d16c84b",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x9012fb0903c95FE666Ad4E314A2629B9f7791e18",
+    "name": "Cat Token",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+    "name": "Apple • Robinhood Token",
+    "symbol": "AAPL"
+   },
+   "priceNative": "0.00000006308",
+   "priceUsd": "0.00002050",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 230,
+     "sells": 250
+    }
+   },
+   "volume": {
+    "h24": 26348.71,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -1.07
+   },
+   "liquidity": {
+    "usd": 20568.78,
+    "base": 997800503,
+    "quote": 0.3365
+   },
+   "fdv": 20505,
+   "marketCap": 20505,
+   "pairCreatedAt": 1789057598000
+  },
+  {
+   "chainId": "robinhood",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/robinhood/0xb79a52ef50f67d6a992210892d7f009f2ffbd1aae9b7c3b3ccb65f2ec55268d3",
+   "pairAddress": "0xb79a52ef50f67d6a992210892d7f009f2ffbd1aae9b7c3b3ccb65f2ec55268d3",
+   "labels": [
+    "v4"
+   ],
+   "baseToken": {
+    "address": "0x0af67164aE7dB07Dc01c9c25BD26B076cE4C0d65",
+    "name": "CAT",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "Ether",
+    "symbol": "ETH"
+   },
+   "priceNative": "0.000000008314",
+   "priceUsd": "0.00002028",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 69,
+     "sells": 27
+    }
+   },
+   "volume": {
+    "h24": 7430.9,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": 510
+   },
+   "liquidity": {
+    "usd": 16332.68,
+    "base": 402554859,
+    "quote": 3.3468
+   },
+   "fdv": 20286,
+   "marketCap": 20286,
+   "pairCreatedAt": 1789057485000
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x63230caefc0f8220536db18136b83b5098b5acbc",
+   "pairAddress": "0x63230caeFc0F8220536dB18136b83B5098B5ACBc",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",
+    "name": "Catcoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.00000000000001345",
+   "priceUsd": "0.000000000009645",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 17,
+     "sells": 22
+    },
+    "h24": {
+     "buys": 122,
+     "sells": 158
+    }
+   },
+   "volume": {
+    "h24": 315.91,
+    "h6": 30.76,
+    "h1": 1.27,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": 3.59,
+    "h6": -0.99,
+    "h24": 187
+   },
+   "liquidity": {
+    "usd": 93.35,
+    "base": 4839209434877,
+    "quote": 0.06511
+   },
+   "fdv": 327479,
+   "marketCap": 327479,
+   "pairCreatedAt": 1686108519000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/44f7d1eb922ae4fbe892d59254abce1c9c250dcd1337d8d65dc90fe5b727af8a?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/619648bd0566d70bd63c84e03b84facb42e76aaf0f5ee1d8d9feb6b518260894?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://catcoin.com",
+      "label": "Website"
+     },
+     {
+      "url": "https://facebook.com/catcoincash",
+      "label": "Facebook"
+     },
+     {
+      "url": "https://instagram.com/catcoincash",
+      "label": "Instagram"
+     },
+     {
+      "url": "https://tiktok.com/catcoincash",
+      "label": "Tiktok"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://twitter.com/catcoin",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/catcoincash",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xa44601125f85fd15206305aafafffcf6985e08e5",
+   "pairAddress": "0xA44601125f85fd15206305aAfAFfFcf6985e08E5",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT"
+   },
+   "priceNative": "0.000001978",
+   "priceUsd": "0.000001978",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 8,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 9,
+     "sells": 17
+    }
+   },
+   "volume": {
+    "h24": 147.75,
+    "h6": 43.43,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 1.96,
+    "h24": -2.31
+   },
+   "liquidity": {
+    "usd": 5028.71,
+    "base": 2016825448,
+    "quote": 1038.0562
+   },
+   "fdv": 16023856,
+   "marketCap": 16023856,
+   "pairCreatedAt": 1724283412000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x73b31ccffef4cc6f5b355d1d9ba421235a449eed",
+   "pairAddress": "0x73b31CCffEf4Cc6f5b355D1d9bA421235A449eeD",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",
+    "name": "Catcoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0x13451648299cd169eA15F5bD8B5b61A27588d682",
+    "name": "XHM",
+    "symbol": "XHM"
+   },
+   "priceNative": "0.000000002070",
+   "priceUsd": "0.000000000009503",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 5,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 48,
+     "sells": 28
+    }
+   },
+   "volume": {
+    "h24": 143.93,
+    "h6": 10.83,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -1.52,
+    "h24": 42.41
+   },
+   "liquidity": {
+    "usd": 141.36,
+    "base": 7437733363275,
+    "quote": 15403
+   },
+   "fdv": 322658,
+   "marketCap": 322658,
+   "pairCreatedAt": 1775537792000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/44f7d1eb922ae4fbe892d59254abce1c9c250dcd1337d8d65dc90fe5b727af8a?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/619648bd0566d70bd63c84e03b84facb42e76aaf0f5ee1d8d9feb6b518260894?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://catcoin.com",
+      "label": "Website"
+     },
+     {
+      "url": "https://facebook.com/catcoincash",
+      "label": "Facebook"
+     },
+     {
+      "url": "https://instagram.com/catcoincash",
+      "label": "Instagram"
+     },
+     {
+      "url": "https://tiktok.com/catcoincash",
+      "label": "Tiktok"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://twitter.com/catcoin",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/catcoincash",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "tidaldex",
+   "url": "https://dexscreener.com/bsc/0x18499e681c92607c5c5c5078ad5dcc6a6401786f",
+   "pairAddress": "0x18499e681C92607C5C5c5078Ad5DCC6a6401786F",
+   "baseToken": {
+    "address": "0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",
+    "name": "Catcoin",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xD963b2236D227a0302E19F2f9595F424950dc186",
+    "name": "CZBlue",
+    "symbol": "CZB"
+   },
+   "priceNative": "0.00000009203",
+   "priceUsd": "0.000000000009565",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 4,
+     "sells": 3
+    },
+    "h24": {
+     "buys": 36,
+     "sells": 19
+    }
+   },
+   "volume": {
+    "h24": 109.14,
+    "h6": 10.85,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": -1.55,
+    "h24": 22.72
+   },
+   "liquidity": {
+    "usd": 253.4,
+    "base": 13246008821220,
+    "quote": 1219153
+   },
+   "fdv": 324761,
+   "marketCap": 324761,
+   "pairCreatedAt": 1739341355000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/44f7d1eb922ae4fbe892d59254abce1c9c250dcd1337d8d65dc90fe5b727af8a?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/619648bd0566d70bd63c84e03b84facb42e76aaf0f5ee1d8d9feb6b518260894?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://catcoin.com",
+      "label": "Website"
+     },
+     {
+      "url": "https://facebook.com/catcoincash",
+      "label": "Facebook"
+     },
+     {
+      "url": "https://instagram.com/catcoincash",
+      "label": "Instagram"
+     },
+     {
+      "url": "https://tiktok.com/catcoincash",
+      "label": "Tiktok"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://twitter.com/catcoin",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/catcoincash",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "uniswap",
+   "url": "https://dexscreener.com/bsc/0x05c0a0b84b6b67499c33e6403686f45cab063810",
+   "pairAddress": "0x05c0a0b84B6b67499c33e6403686f45cAb063810",
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002762",
+   "priceUsd": "0.000001978",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 7
+    }
+   },
+   "volume": {
+    "h24": 8.2,
+    "h6": 2.97,
+    "h1": 0.55,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.53,
+    "h6": 1.95,
+    "h24": -1.8
+   },
+   "liquidity": {
+    "usd": 954.56,
+    "base": 282533785,
+    "quote": 0.5521
+   },
+   "fdv": 16024945,
+   "marketCap": 16024945,
+   "pairCreatedAt": 1724714442000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "squadswap",
+   "url": "https://dexscreener.com/bsc/0x280871f5fa0c7cf95fa2e0852a22d8c3adf92d9c",
+   "pairAddress": "0x280871f5fa0c7cF95fA2E0852a22D8c3aDF92d9C",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002753",
+   "priceUsd": "0.000001973",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 3,
+     "sells": 6
+    }
+   },
+   "volume": {
+    "h24": 24.48,
+    "h6": 5.32,
+    "h1": 1.95,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.88,
+    "h6": 1.47,
+    "h24": -0.97
+   },
+   "liquidity": {
+    "usd": 895.4,
+    "base": 226812030,
+    "quote": 0.6245
+   },
+   "fdv": 15985041,
+   "marketCap": 15985041,
+   "pairCreatedAt": 1738587609000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "thena",
+   "url": "https://dexscreener.com/bsc/0x01e0d483ac9e04c443ad1b82f0e967813962d568",
+   "pairAddress": "0x01E0D483ac9e04c443ad1b82f0E967813962d568",
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002756",
+   "priceUsd": "0.000001965",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 2,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 4,
+     "sells": 5
+    }
+   },
+   "volume": {
+    "h24": 13.49,
+    "h6": 1.75,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 1.6,
+    "h24": -2.46
+   },
+   "liquidity": {
+    "usd": 168.48,
+    "base": 41635750,
+    "quote": 0.1215
+   },
+   "fdv": 15918715,
+   "marketCap": 15918715,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xe1f755823b366b8ada9f94753b5e6b100df44d0c",
+   "pairAddress": "0xE1F755823b366B8Ada9f94753B5e6b100DF44d0c",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002745",
+   "priceUsd": "0.000001950",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h24": {
+     "buys": 0,
+     "sells": 2
+    }
+   },
+   "volume": {
+    "h24": 0.58,
+    "h6": 0,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h24": -1.6
+   },
+   "liquidity": {
+    "usd": 300.49,
+    "base": 118375978,
+    "quote": 0.09807
+   },
+   "fdv": 15791848,
+   "marketCap": 15791848,
+   "pairCreatedAt": 1724336333000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0x1a1adea3c1e2f55526379a21023ef46714e73d06",
+   "pairAddress": "0x1a1aDEa3c1e2F55526379A21023ef46714E73D06",
+   "labels": [
+    "v3"
+   ],
+   "baseToken": {
+    "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+    "name": "Simons Cat",
+    "symbol": "CAT"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.000000002753",
+   "priceUsd": "0.000001973",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 2
+    },
+    "h6": {
+     "buys": 1,
+     "sells": 2
+    },
+    "h24": {
+     "buys": 2,
+     "sells": 5
+    }
+   },
+   "volume": {
+    "h24": 1.7,
+    "h6": 0.45,
+    "h1": 0.13,
+    "m5": 0
+   },
+   "priceChange": {
+    "h1": -0.44,
+    "h6": 1.43,
+    "h24": -1.11
+   },
+   "liquidity": {
+    "usd": 147.02,
+    "base": 27570570,
+    "quote": 0.1292
+   },
+   "fdv": 15980270,
+   "marketCap": 15980270,
+   "pairCreatedAt": 1724334162000,
+   "info": {
+    "imageUrl": "https://cdn.dexscreener.com/cms/images/85f6929f07daa1e1ba77547d4bde843f34e1375b206aa47318005baaf6944478?width=800&height=800&quality=95&format=auto",
+    "header": "https://cdn.dexscreener.com/cms/images/b8b4f7f46ddc9b7d39705c29e36d639d057ff5c2bf1ef7d1426688583d8db06e?width=1500&height=500&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x6894cde390a3f51155ea41ed24a33a4827d3063d?timestamp=1789107900000",
+    "websites": [
+     {
+      "url": "https://simons.cat/",
+      "label": "Website"
+     },
+     {
+      "url": "https://bscscan.com/tx/0x660e79aa847242a9e0189274fda15159f188aa57ad94f9a46659d07ac3c9cbad",
+      "label": "LP key burn"
+     }
+    ],
+    "socials": [
+     {
+      "url": "https://x.com/SimonsCatMeme",
+      "type": "twitter"
+     },
+     {
+      "url": "https://t.me/SimonsCatWorld",
+      "type": "telegram"
+     }
+    ]
+   }
+  },
+  {
+   "chainId": "bsc",
+   "dexId": "pancakeswap",
+   "url": "https://dexscreener.com/bsc/0xdbeb6a1636ac1c8f2f8cc72fd26b211d977f2bc2",
+   "pairAddress": "0xdBeb6A1636Ac1c8F2F8Cc72FD26b211D977F2Bc2",
+   "labels": [
+    "v2"
+   ],
+   "baseToken": {
+    "address": "0xfF71e87a2e7B818eEE86f3F1C2e94a06Cac85866",
+    "name": "Cat",
+    "symbol": "Cat"
+   },
+   "quoteToken": {
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB"
+   },
+   "priceNative": "0.0000000000000002771",
+   "priceUsd": "0.0000000000001984",
+   "txns": {
+    "m5": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h1": {
+     "buys": 0,
+     "sells": 0
+    },
+    "h6": {
+     "buys": 0,
+     "sells": 1
+    },
+    "h24": {
+     "buys": 1,
+     "sells": 1
+    }
+   },
+   "volume": {
+    "h24": 2.52,
+    "h6": 1.03,
+    "h1": 0,
+    "m5": 0
+   },
+   "priceChange": {
+    "h6": 0.07,
+    "h24": 0.07
+   },
+   "liquidity": {
+    "usd": 47237.63,
+    "base": 119020728764655120,
+    "quote": 32.9857
+   },
+   "fdv": 41870,
+   "marketCap": 41871,
+   "pairCreatedAt": 1676704549000
+  }
+ ]
+}

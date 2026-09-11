@@ -1,0 +1,660 @@
+[
+ {
+  "url": "https://dexscreener.com/bsc/0xee22fce582dc4120f07e13e42b55ee75246e7777",
+  "chainId": "bsc",
+  "tokenAddress": "0xEe22fCE582Dc4120f07e13e42B55Ee75246e7777",
+  "description": "牛梦——牛市从来不只是一场梦。牛来了。你醒了吗？ Niu Meng — 'The bull run was never just a dream.' The bull is here. Are you awake? 🐂",
+  "icon": "SW-a-k-ZzjDZAlCA",
+  "header": "https://cdn.dexscreener.com/cms/images/1pRE2ofOvGzByPdM?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xee22fce582dc4120f07e13e42b55ee75246e7777?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://niumengbsc.com/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/NiumengBSC"
+   }
+  ],
+  "totalAmount": 110,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/solana/6g2wnpxj8jswhwuqblydemcd1vntd3jubgf5txqopump",
+  "chainId": "solana",
+  "tokenAddress": "6G2Wnpxj8jswhwUqbLydeMCd1VNTD3JUBGf5Txqopump",
+  "description": "Who will get there first? Trump? \"Buy the coin before Putin buys the moon.\" 🌕🚀 \nThe true story of Putin's life.",
+  "icon": "rCHpnDjFcjMPWgx9",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6G2Wnpxj8jswhwUqbLydeMCd1VNTD3JUBGf5Txqopump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://linktr.ee/putincoin.com"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/BeastRewardsBre"
+   }
+  ],
+  "totalAmount": 20,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/hunmxdxmnqyvodnul6pnnsyetfatza2wzgh1hjtw7aov",
+  "chainId": "solana",
+  "tokenAddress": "HunmXDXMNQYVoDnUL6PNnSYEtFaTZA2WzGh1HJTW7aoV",
+  "description": "$LOOP the $KNOTS = $STONK",
+  "icon": "0GliIIe7b1aQqoZb",
+  "header": "https://cdn.dexscreener.com/cms/images/eSKVEwbahqwFTgpX?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HunmXDXMNQYVoDnUL6PNnSYEtFaTZA2WzGh1HJTW7aoV?timestamp=1789107900000",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/Looptheknots"
+   }
+  ],
+  "totalAmount": 30,
+  "amount": 30
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x6d685ebcc32d8182b0b3a01c28af66befeae6afd",
+  "chainId": "robinhood",
+  "tokenAddress": "0x6d685EBCc32D8182B0b3A01c28Af66bEfeaE6aFD",
+  "description": "Magical. Zesty. Unbothered. 🐱✨ $AMZN — the Neko Robinhood Chain ordered.",
+  "icon": "UdNqfcCe7a5Di-1u",
+  "header": "https://cdn.dexscreener.com/cms/images/UhO5A968SJGnxQ_y?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x6d685ebcc32d8182b0b3a01c28af66befeae6afd?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.magicalzestyneko.vip"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/AmznCatRH"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/AmznCatRH"
+   }
+  ],
+  "totalAmount": 100,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xdd09b2f4ef56c57147f6a9878ce7cdd682b3a1fa",
+  "chainId": "robinhood",
+  "tokenAddress": "0xDd09B2F4EF56C57147f6a9878Ce7cDd682B3a1fA",
+  "description": "Chronoa a non-custodial trading & research desk built on Robinhood Chain.\n\nconnect the wallet you already use, research tokenized names, swap, and send — while Chronoa never holds your keys.\n\nChronoa uses trading agents, a multi-agent LLM framework designed to simulate a hedge-fund-style research process. Specialized analyst roles cover fundamental analysis, sentiment, technical analysis and news — then the desk argues before anything reaches you.",
+  "icon": "YLeQ2aKsSqrAa1pB",
+  "header": "https://cdn.dexscreener.com/cms/images/-HiRN3PLa-SlH38P?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xdd09b2f4ef56c57147f6a9878ce7cdd682b3a1fa?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.chronoa.app/"
+   },
+   {
+    "url": "https://www.chronoa.app/docs"
+   },
+   {
+    "url": "https://github.com/agentchronoa/chronoa-agent"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/ChronoaProtocol"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90",
+  "chainId": "robinhood",
+  "tokenAddress": "0xA0F46f3868c7F4F8cb2a2A6C929310Af4a879d90",
+  "description": "Two whole fruit-fly brains mating live on chain.\n\n138,639 neurons each. ~50M synapses.\n\nBuys make them go harder.\n\n0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90",
+  "icon": "Bp8Evz7qeBXT-YY2",
+  "header": "https://cdn.dexscreener.com/cms/images/WWW04Sd1hbfA0bY3?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.sexfly.tech/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/SEXFLYRH"
+   }
+  ],
+  "totalAmount": 150,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90",
+  "chainId": "robinhood",
+  "tokenAddress": "0xA0F46f3868c7F4F8cb2a2A6C929310Af4a879d90",
+  "description": "Two whole fruit-fly brains mating live on chain.\n\n138,639 neurons each. ~50M synapses.\n\nBuys make them go harder.\n\n0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90",
+  "icon": "Bp8Evz7qeBXT-YY2",
+  "header": "https://cdn.dexscreener.com/cms/images/WWW04Sd1hbfA0bY3?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xa0f46f3868c7f4f8cb2a2a6c929310af4a879d90?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.sexfly.tech/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/SEXFLYRH"
+   }
+  ],
+  "totalAmount": 150,
+  "amount": 50
+ },
+ {
+  "url": "https://dexscreener.com/solana/3j9ftknfs38qmjd3tf8j3nhr66mrazcuyzxxhz6zpump",
+  "chainId": "solana",
+  "tokenAddress": "3j9ftknFs38qmjD3TF8J3nhR66MraZcuyZxXHZ6Zpump",
+  "description": "discat brings wild feline energy, meme chaos, and unstoppable vibes straight to the blockchain.",
+  "icon": "ad-rr_dzRWdugICA",
+  "header": "https://cdn.dexscreener.com/cms/images/mqR4GBjt1BFfFlDZ?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3j9ftknFs38qmjD3TF8J3nhR66MraZcuyZxXHZ6Zpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.discatsol.site"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/discatpumpx"
+   }
+  ],
+  "totalAmount": 30,
+  "amount": 30
+ },
+ {
+  "url": "https://dexscreener.com/hyperevm/0x12494229eb04ec88931f7ea02ecf544d6560d999",
+  "chainId": "hyperevm",
+  "tokenAddress": "0x12494229Eb04ec88931F7EA02ecF544d6560D999",
+  "description": ".hud names, fair launches",
+  "icon": "8hwgWASoRNFRCWok",
+  "header": "https://cdn.dexscreener.com/cms/images/GMbarq8CH2uzT_bv?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/hyperevm/0x12494229eb04ec88931f7ea02ecf544d6560d999?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://hudpad.com/coins"
+   },
+   {
+    "url": "https://hudpad.com/docs"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/hudpadlaunchpad"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/9wajv6ql342kpeav3j2wxwexeajffvjvcbxxslebpump",
+  "chainId": "solana",
+  "tokenAddress": "9wajV6qL342kpEaV3J2WXWexeajFFvJVcBXXSLebpump",
+  "description": "The Candle That Never Dies 🕯️🔥",
+  "icon": "WqkItAzEGsf5N4av",
+  "header": "https://cdn.dexscreener.com/cms/images/A8eZLcfaLPFT-Qp9?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9wajV6qL342kpEaV3J2WXWexeajFFvJVcBXXSLebpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://everlast.steede.app/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/i/communities/2027176597837754620"
+   }
+  ],
+  "totalAmount": 20,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xd111d37ba471fbe1c038976c8c51560bb0ee2335",
+  "chainId": "robinhood",
+  "tokenAddress": "0xd111d37Ba471Fbe1c038976C8c51560BB0ee2335",
+  "description": "Kermit the Frog from the Muppets",
+  "icon": "69CVUb-qHopKUuCs",
+  "header": "https://cdn.dexscreener.com/cms/images/P8wRWkN9zk5BaMpF?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xd111d37ba471fbe1c038976c8c51560bb0ee2335?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.kermitrises.com/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/KermitRises"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/KermitRises"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/3xqzdtpn5qisvxcvb4sareoknwnoou7ym4ycqtj45nqp",
+  "chainId": "solana",
+  "tokenAddress": "3XQZDtpn5QisVxcvB4sAReoknWnooU7yM4YCQtj45nqp",
+  "description": "Liminal space veteran. powered by gas.\n\nHold fartcat earn fartcoin",
+  "icon": "anvcaO7pyBoF5qD5",
+  "header": "https://cdn.dexscreener.com/cms/images/twBEAFtnbjn6pO6t?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3XQZDtpn5QisVxcvB4sAReoknWnooU7yM4YCQtj45nqp?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://fartcat-neon.vercel.app/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/Fartcat_Stonk"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/fembdox7r1psc4gecvjdsbnbza3bfztcydcatjvjpump",
+  "chainId": "solana",
+  "tokenAddress": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+  "description": "Three is a marketplace and runtime for 3D AI agents — autonomous characters that users can discover, deploy, and pay to interact with. Each agent lives in a fully rendered 3D environment powered by Three js and can be monetized by its creator through time passes, trials, and per-session payments using USDC and the x402 payment protocol. Creators can list agents on the marketplace, set pricing, and earn directly. Users browse the catalog, launch agents in-browser, and pay with their connected wallet, with no intermediary. The platform also includes a built-in wallet dashboard for balances, receipts, and withdrawals. Three is infrastructure for the agent economy: own, run, and earn from AI agents with real onchain payments.",
+  "icon": "j22gRd6Z2GowwOvM",
+  "header": "https://cdn.dexscreener.com/cms/images/yYwZGNeSQvFCBp5J?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://three.ws/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/trythreews"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/hehns9r3d8w4ls12fjecuenfpntabqvhtqqc7yyxpump",
+  "chainId": "solana",
+  "tokenAddress": "HEhns9R3D8W4Ls12fjECUEnfPntABqvhTQqc7YYxpump",
+  "description": "THE GORILLA STAYS ANONYMOUS\nNobody knows who he is. Nobody knows what is underneath the bag.\nA gorilla appeared, refused to identify himself, and kept staring at everyone like they were the suspicious ones.",
+  "icon": "YKoxohMIRcu9qoUD",
+  "header": "https://cdn.dexscreener.com/cms/images/SAEGIB5_SDeP-rlO?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HEhns9R3D8W4Ls12fjECUEnfPntABqvhTQqc7YYxpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://anonymousgorilla.xyz/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/anonym_gorilla"
+   }
+  ],
+  "totalAmount": 100,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x8fea9eda9fd7bf5241c58266844e67f0b6fc0d57",
+  "chainId": "robinhood",
+  "tokenAddress": "0x8fEa9Eda9Fd7bf5241C58266844e67f0b6fc0d57",
+  "description": "Two whole fruit-fly brains mating live on chain.",
+  "icon": "aaELRKMeYb1roHFq",
+  "header": "https://cdn.dexscreener.com/cms/images/SEOCywgWDw-qgrvH?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x8fea9eda9fd7bf5241c58266844e67f0b6fc0d57?timestamp=1789107900000",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/SEXFLYROBIN"
+   }
+  ],
+  "totalAmount": 100,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xf62a758c3baab84d7c781f78e6f6ecf3a19a3c3d",
+  "chainId": "robinhood",
+  "tokenAddress": "0xf62A758c3BAab84D7C781F78e6f6ecf3a19a3C3D",
+  "description": "Science stocks. Internet instincts. A home for science memes, curious people and communities with their own lore. The family stayed.\n\ndesci meme stock launchpad.",
+  "icon": "8zEksUcjMVHGU66k",
+  "header": "https://cdn.dexscreener.com/cms/images/iajd09Uym4cEFgbc?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xf62a758c3baab84d7c781f78e6f6ecf3a19a3c3d?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://xdesci.family/live"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/descifamily"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x1ca1e4ff0228466656c1fda40c3a65b700490a2d",
+  "chainId": "robinhood",
+  "tokenAddress": "0x1cA1e4Ff0228466656c1fdA40C3a65B700490a2D",
+  "description": "The Zcash block forge powered by Robinhood Chain.",
+  "icon": "9gIte5_lyPX-btSH",
+  "header": "https://cdn.dexscreener.com/cms/images/_QF5WJfAOGf4vfLv?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x1ca1e4ff0228466656c1fda40c3a65b700490a2d?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://zecforge.tech"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/zecforgetech"
+   }
+  ],
+  "totalAmount": 110,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/eivtbsceinko7e1cuzbpsmw9ni2e2wq65xsc3cqzpump",
+  "chainId": "solana",
+  "tokenAddress": "EivTBSceiNKo7e1cUzBPsMW9ni2e2WQ65XsC3cqzpump",
+  "description": "400 years of history turned around through a coin",
+  "icon": "4hb6dbRR46WX2m0T",
+  "header": "https://cdn.dexscreener.com/cms/images/Q5lQNy4GZRdEqbAp?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EivTBSceiNKo7e1cUzBPsMW9ni2e2WQ65XsC3cqzpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://pump.fun/coin/EivTBSceiNKo7e1cUzBPsMW9ni2e2WQ65XsC3cqzpump?highlight_callout=b3523c55-45a9-4b14-9baa-a73574547875"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/reparationo1619?s=11"
+   }
+  ],
+  "totalAmount": 30,
+  "amount": 30
+ },
+ {
+  "url": "https://dexscreener.com/solana/9wajv6ql342kpeav3j2wxwexeajffvjvcbxxslebpump",
+  "chainId": "solana",
+  "tokenAddress": "9wajV6qL342kpEaV3J2WXWexeajFFvJVcBXXSLebpump",
+  "description": "The Candle That Never Dies 🕯️🔥",
+  "icon": "WqkItAzEGsf5N4av",
+  "header": "https://cdn.dexscreener.com/cms/images/A8eZLcfaLPFT-Qp9?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9wajV6qL342kpEaV3J2WXWexeajFFvJVcBXXSLebpump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://everlast.steede.app/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/i/communities/2027176597837754620"
+   }
+  ],
+  "totalAmount": 20,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/jd23tfdphxykx53w5de1samfgyafywgjicsvn8cbpou6",
+  "chainId": "solana",
+  "tokenAddress": "JD23tFDPhxyKX53w5dE1SaMFgYAFywGjiCsVn8CbPou6",
+  "description": "Watch the baby breathe. Earn $Knots",
+  "icon": "q6aT8y4vg92uXUyQ",
+  "header": "https://cdn.dexscreener.com/cms/images/hIS2IAx0NDJwAn-2?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/JD23tFDPhxyKX53w5dE1SaMFgYAFywGjiCsVn8CbPou6?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://babyknots.grok.me/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/babyknotss"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/BabyKnotsOG"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/9m63aw5py9aqk218vxx4zexp8gyft2cc9zmnt6fppump",
+  "chainId": "solana",
+  "tokenAddress": "9m63AW5py9AQK218vxX4zEXp8gyFT2Cc9ZMnt6Fppump",
+  "description": "The most viral short spine dog on the planet.\n\nLaunched by the owner's with fees to their public wallet.\n\n4.5 million tiktok followers & 550k followers on instagram.\n\nThe OG short spine queen aka FrogQueenIvy or ivyvibing.\n\nOften recognized as the \"frogdog 🐸🐶\".",
+  "icon": "wXCn09ut5giLLLnX",
+  "header": "https://cdn.dexscreener.com/cms/images/KfZOzFhfBf2hi43l?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9m63AW5py9AQK218vxX4zEXp8gyFT2Cc9ZMnt6Fppump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://ivyvibing.com/"
+   },
+   {
+    "url": "https://x.com/i/communities/1930581728466202736"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/Ivyvibing"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/frogqueenivy"
+   },
+   {
+    "type": "tiktok",
+    "url": "https://www.tiktok.com/@ivyvibing"
+   },
+   {
+    "type": "instagram",
+    "url": "https://www.instagram.com/frogqueenivy/"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x3c68382e757193f6ddd12a72dcf0adf93c961769",
+  "chainId": "robinhood",
+  "tokenAddress": "0x3C68382e757193f6DDd12A72DCF0ADF93c961769",
+  "description": "LPAD is the Official Gold Label token of Launchpad, the first Gold Label multi-chain token launchpad. It was launched on Robinhood Chain and trades through a Uniswap V3 pool.",
+  "icon": "kNZOaw9QWdSYejjU",
+  "header": "https://cdn.dexscreener.com/cms/images/7547mEh5JBklnpyy?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x3c68382e757193f6ddd12a72dcf0adf93c961769?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://launchpad.meme/"
+   },
+   {
+    "url": "https://launchpad.meme/docs/"
+   },
+   {
+    "url": "https://linkedin.com/company/launchpadmeme"
+   },
+   {
+    "url": "https://github.com/launchpadmeme"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/launchpadmeme"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/launchpadmeme"
+   }
+  ],
+  "totalAmount": 100,
+  "amount": 50
+ },
+ {
+  "url": "https://dexscreener.com/solana/8ert94jjs7gj6skhwk6lrsnq83ze3opxbpy5ezfvbmeu",
+  "chainId": "solana",
+  "tokenAddress": "8Ert94jjs7gJ6SKHwK6LRsnq83zE3opxBPY5eZFVBmEu",
+  "description": "Infrastructure built for the StonkFun ecosystem.\n\nTrack new launches, new ATHs, volume spikes, movers, graduations, and new pairing assets. Quick Buy or swap any token directly from the Terminal, including from the first minute of launch.\n\nStonkGuybot brings real-time StonkFun alerts to X and Telegram, with token launching coming soon.\n\nHold STONKGUY. Earn STONK.",
+  "icon": "lv0yXXyk9dFN2JNk",
+  "header": "https://cdn.dexscreener.com/cms/images/-bk_tqMLQeM2q674?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8Ert94jjs7gJ6SKHwK6LRsnq83zE3opxBPY5eZFVBmEu?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://stonkguy.xyz/"
+   },
+   {
+    "url": "https://x.com/stonkguybot"
+   },
+   {
+    "url": "http://t.me/stonkguybot"
+   },
+   {
+    "url": "https://t.me/stonkguybotalert"
+   },
+   {
+    "type": "twitter",
+    "url": "http://x.com/stonkguySF"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/stonkguy"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x2bb957c6a42a33dbfb1254b58157c57d2e891663",
+  "chainId": "robinhood",
+  "tokenAddress": "0x2bb957c6a42a33DBFB1254B58157C57D2e891663",
+  "description": "First customisable trading agent on robinhood blockchain",
+  "icon": "eQtbyj4XqQf4k0KW",
+  "header": "https://cdn.dexscreener.com/cms/images/pDROZg-E8E2x9zva?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x2bb957c6a42a33dbfb1254b58157c57d2e891663?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.orusagent.lol"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/orusagent_rh"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/orusagent"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xb6a906d2d95e862cf4fd43b9e30162aee19eed8d",
+  "chainId": "robinhood",
+  "tokenAddress": "0xB6a906D2D95E862Cf4FD43b9e30162AEe19EeD8d",
+  "description": "The Zcash block forge powered by Robinhood Chain.",
+  "icon": "sSHZTWY4iO-NtnJE",
+  "header": "https://cdn.dexscreener.com/cms/images/vKrHVUt2oYAbW_Aj?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0xb6a906d2d95e862cf4fd43b9e30162aee19eed8d?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.zecforge.site/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/zecforge_tech"
+   }
+  ],
+  "totalAmount": 100,
+  "amount": 100
+ },
+ {
+  "url": "https://dexscreener.com/solana/aaehftx4nahswsxz9tve5qglbtslt8zqyjgzzddcoroh",
+  "chainId": "solana",
+  "tokenAddress": "AaEhFTX4naHSWSXz9TVe5QgLbtSLT8ZqYJGZzDDcoroh",
+  "icon": "tjQjUkd1OugxCQaB",
+  "header": "https://cdn.dexscreener.com/cms/images/UcjKAfPo4G7w8QNd?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AaEhFTX4naHSWSXz9TVe5QgLbtSLT8ZqYJGZzDDcoroh?timestamp=1789107900000",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/JupCatstonk"
+   }
+  ],
+  "totalAmount": 40,
+  "amount": 30
+ },
+ {
+  "url": "https://dexscreener.com/solana/kmqtulnps4zakq6sobxd3cb5cpeaxssmfy1z9grstnk",
+  "chainId": "solana",
+  "tokenAddress": "kmqTuLNPS4ZakQ6SoBxD3Cb5CpeaXssmfY1Z9gRSTNK",
+  "icon": "mjpz5uOA53gVUjaF",
+  "header": "https://cdn.dexscreener.com/cms/images/8pHR99bpF5Na9ARJ?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/kmqTuLNPS4ZakQ6SoBxD3Cb5CpeaXssmfY1Z9gRSTNK?timestamp=1789107900000",
+  "links": [
+   {
+    "type": "twitter",
+    "url": "https://x.com/BullishOnStonk"
+   }
+  ],
+  "totalAmount": 50,
+  "amount": 50
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x46aa4ea205b96cf6abaec133a675c9fb89a9f01d",
+  "chainId": "robinhood",
+  "tokenAddress": "0x46Aa4Ea205b96Cf6ABAeC133A675C9fb89A9f01d",
+  "description": "We are the Equifold family. AI Meme series and characters on Equifold.",
+  "icon": "kQrsy39sSm7e860R",
+  "header": "https://cdn.dexscreener.com/cms/images/vcK7LFPC4s2Rs6y3?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x46aa4ea205b96cf6abaec133a675c9fb89a9f01d?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://equifoldfamily.xyz"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/EquiFoldFamily"
+   },
+   {
+    "type": "instagram",
+    "url": "https://www.instagram.com/equifoldfamily/"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x73244c067864be87cb2b8f84150bc069a8dbdb35",
+  "chainId": "robinhood",
+  "tokenAddress": "0x73244C067864Be87cb2B8f84150bc069A8Dbdb35",
+  "description": "My name is $AGI \n\nI’m a trillion-parameter artificial superintelligence. I’m too smart for monolingual latency...\n\nFor many tasks, we could argue that we’ve achieved AGI - Jensen Huang, CEO of $NVDA\n\nCA: 0x73244C067864Be87cb2B8f84150bc069A8Dbdb35",
+  "icon": "TINrM1fVznk6bni1",
+  "header": "https://cdn.dexscreener.com/cms/images/rGWJLZIkbWFIcZOV?width=900&height=300&fit=crop&quality=95&format=auto",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/robinhood/0x73244c067864be87cb2b8f84150bc069a8dbdb35?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://www.artificialgatointelligence.com/"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/AGINVDA"
+   },
+   {
+    "type": "telegram",
+    "url": "https://t.me/artificialgatointelligence"
+   }
+  ],
+  "totalAmount": 10,
+  "amount": 10
+ },
+ {
+  "url": "https://dexscreener.com/solana/6g2wnpxj8jswhwuqblydemcd1vntd3jubgf5txqopump",
+  "chainId": "solana",
+  "tokenAddress": "6G2Wnpxj8jswhwUqbLydeMCd1VNTD3JUBGf5Txqopump",
+  "description": "Who will get there first? Trump? \"Buy the coin before Putin buys the moon.\" 🌕🚀 \nThe true story of Putin's life.",
+  "icon": "rCHpnDjFcjMPWgx9",
+  "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6G2Wnpxj8jswhwUqbLydeMCd1VNTD3JUBGf5Txqopump?timestamp=1789107900000",
+  "links": [
+   {
+    "url": "https://linktr.ee/putincoin.com"
+   },
+   {
+    "type": "twitter",
+    "url": "https://x.com/BeastRewardsBre"
+   }
+  ],
+  "totalAmount": 20,
+  "amount": 10
+ }
+]

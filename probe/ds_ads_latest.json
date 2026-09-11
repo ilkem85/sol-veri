@@ -1,0 +1,242 @@
+[
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-11T05:10:06.453Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
+  "chainId": "solana",
+  "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
+  "date": "2026-09-11T02:20:04.551Z",
+  "type": "tokenAd",
+  "impressions": 25000
+ },
+ {
+  "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
+  "chainId": "solana",
+  "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
+  "date": "2026-09-11T02:05:40.371Z",
+  "type": "trendingBarAd",
+  "durationHours": 24
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x3c68382e757193f6ddd12a72dcf0adf93c961769",
+  "chainId": "robinhood",
+  "tokenAddress": "0x3c68382e757193f6ddd12a72dcf0adf93c961769",
+  "date": "2026-09-11T01:05:10.090Z",
+  "type": "tokenAd",
+  "impressions": 25000
+ },
+ {
+  "url": "https://dexscreener.com/solana/hgnzejy7v1h779vn3hdlvtedeaybskxbaqyivffcpump",
+  "chainId": "solana",
+  "tokenAddress": "HGNzEjY7V1H779VN3hdLvTeDeAYBSkXBAqYivfFCpump",
+  "date": "2026-09-10T23:49:24.467Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/bnaimfh71mm5j3y1yzaac8vwjaruz4zdwb3ttruapump",
+  "chainId": "solana",
+  "tokenAddress": "BnAiMFh71MM5J3y1Yzaac8VWjARuz4zdwB3TTrUApump",
+  "date": "2026-09-10T20:51:25.729Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-10T19:04:25.549Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/solana/h1kxuqepkqnnenjgnn5tuhf3nsqk2vb1jua9c4rggpuf",
+  "chainId": "solana",
+  "tokenAddress": "H1kXUqEPkQNNeNjGNN5tuHf3nsQK2vB1jUA9c4RggpUf",
+  "date": "2026-09-10T16:42:26.377Z",
+  "type": "tokenAd",
+  "impressions": 25000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-10T13:37:09.764Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x10b5ca68a5509b93e6c8f62ed76a7086164f1f11",
+  "chainId": "robinhood",
+  "tokenAddress": "0x10B5Ca68a5509B93E6c8f62Ed76a7086164F1F11",
+  "date": "2026-09-10T09:48:35.421Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-10T06:06:55.342Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/solana/vcfn4s4n2ok4fzvp2dahfhgwm7owyasthl1eakydndt",
+  "chainId": "solana",
+  "tokenAddress": "VCFN4S4N2oK4FZvp2daHfhgWm7oWyAsthL1EakYDNDT",
+  "date": "2026-09-10T04:25:23.557Z",
+  "type": "trendingBarAd",
+  "durationHours": 24
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x3f37c7afa0320345553d14d8245dc32a85e7ee47",
+  "chainId": "robinhood",
+  "tokenAddress": "0x3f37c7afa0320345553d14d8245dc32a85e7ee47",
+  "date": "2026-09-09T23:26:19.702Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x1dce20ae26970956cb6570dbfec9b7427f523143",
+  "chainId": "robinhood",
+  "tokenAddress": "0x1dcE20ae26970956CB6570DBFEc9B7427f523143",
+  "date": "2026-09-09T22:04:11.402Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-09T20:17:16.170Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x4f3081e412a6a44e33d0334a03f06284ab000220",
+  "chainId": "robinhood",
+  "tokenAddress": "0x4f3081E412a6a44e33d0334a03f06284AB000220",
+  "date": "2026-09-09T18:01:29.892Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x9aa0c0ca88e6ae43a3d229afc373c0b9f2b53521",
+  "chainId": "robinhood",
+  "tokenAddress": "0x9Aa0C0ca88e6aE43A3D229afC373C0B9F2b53521",
+  "date": "2026-09-09T15:22:18.446Z",
+  "type": "tokenAd",
+  "impressions": 50000
+ },
+ {
+  "url": "https://dexscreener.com/solana/vcfn4s4n2ok4fzvp2dahfhgwm7owyasthl1eakydndt",
+  "chainId": "solana",
+  "tokenAddress": "VCFN4S4N2oK4FZvp2daHfhgWm7oWyAsthL1EakYDNDT",
+  "date": "2026-09-09T12:54:21.294Z",
+  "type": "tokenAd",
+  "impressions": 100000
+ },
+ {
+  "url": "https://dexscreener.com/solana/dtxznk8fpfox68upfprk7suqfddlxh59qjcm1esfpump",
+  "chainId": "solana",
+  "tokenAddress": "DtXZNK8FpfoX68UPFpRk7SuqFDDLXh59QjcM1ESfpump",
+  "date": "2026-09-09T12:32:03.651Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/2rx8rvomscqkdmkedlnbrc2mxdotevx77t8gtq4kkdpu",
+  "chainId": "solana",
+  "tokenAddress": "2RX8rVoMSCQkDMKeDLNBRc2mXDoTevx77T8gTQ4KkdPU",
+  "date": "2026-09-09T07:11:12.241Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/hdyp5e1dum3zjqw3tqvdhdxtt6ckxkgyen3ndncxtrix",
+  "chainId": "solana",
+  "tokenAddress": "HDYP5e1dUM3zjqw3tQvDHDxtt6CKxkgyEN3NdNcXTRiX",
+  "date": "2026-09-08T20:02:44.734Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/9ezfthwrdupssemdplw6sdd9tjighdc4auq5qn5bpump",
+  "chainId": "solana",
+  "tokenAddress": "9ezFthWrDUpSSeMdpLW6SDD9TJigHdc4AuQ5QN5bpump",
+  "date": "2026-09-08T19:46:13.889Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/bdcvmagfaca1xfvwvmd2tyfqpf93fsnuuaayvh1fpump",
+  "chainId": "solana",
+  "tokenAddress": "BdcVMaGfAca1XfVWvmd2tYfQpf93fsNuuaaYVH1Fpump",
+  "date": "2026-09-08T19:29:16.264Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0xf9dc3ffab9f84db860b898285bbb51a419117c7b",
+  "chainId": "robinhood",
+  "tokenAddress": "0xF9DC3fFab9F84dB860b898285bBB51a419117c7b",
+  "date": "2026-09-08T19:13:25.736Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/vcfn4s4n2ok4fzvp2dahfhgwm7owyasthl1eakydndt",
+  "chainId": "solana",
+  "tokenAddress": "VCFN4S4N2oK4FZvp2daHfhgWm7oWyAsthL1EakYDNDT",
+  "date": "2026-09-08T18:06:22.632Z",
+  "type": "trendingBarAd",
+  "durationHours": 24
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x4f3081e412a6a44e33d0334a03f06284ab000220",
+  "chainId": "robinhood",
+  "tokenAddress": "0x4f3081e412a6a44e33d0334a03f06284ab000220",
+  "date": "2026-09-08T13:10:09.917Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/ewizoxaydkcapxmfhwwgyz724hjcvmfqy8xercwxpump",
+  "chainId": "solana",
+  "tokenAddress": "EWizoXayDkCaPXmfhwWgYz724hjCVMFqy8XERCWXpump",
+  "date": "2026-09-08T11:36:58.440Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/solana/7zueggicodgdgz6tqm8mqq3kiwqk2ne3uu43hzbbpump",
+  "chainId": "solana",
+  "tokenAddress": "7ZUEGgicoDGdgZ6Tqm8mQQ3Kiwqk2NE3Uu43hZBbpump",
+  "date": "2026-09-08T05:44:20.353Z",
+  "type": "tokenAd",
+  "impressions": 25000
+ },
+ {
+  "url": "https://dexscreener.com/solana/b3mfbf6bqj4sw1erzhyjt6sqqvyeny7gzurcy29c7wwn",
+  "chainId": "solana",
+  "tokenAddress": "B3mfbf6BQJ4sw1eRZHYJt6SQqVyENy7gZuRcY29c7wwN",
+  "date": "2026-09-08T04:06:11.797Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ },
+ {
+  "url": "https://dexscreener.com/robinhood/0x8c498bc6b46b1a49c436a8373e9673b8bbaa0628",
+  "chainId": "robinhood",
+  "tokenAddress": "0x8c498bc6b46b1a49c436a8373e9673b8bbaa0628",
+  "date": "2026-09-08T03:38:14.194Z",
+  "type": "tokenAd",
+  "impressions": 10000
+ }
+]

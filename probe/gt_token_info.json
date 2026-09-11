@@ -1,0 +1,59 @@
+{
+ "data": {
+  "id": "solana_6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+  "type": "token",
+  "attributes": {
+   "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "name": "STONK",
+   "symbol": "STONK",
+   "decimals": 9,
+   "image_url": "https://coin-images.coingecko.com/coins/images/102175239/large/tscmgapqpfx5j4hu8gbs3aj85s7a.?1785895603",
+   "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/102175239/thumb/tscmgapqpfx5j4hu8gbs3aj85s7a.?1785895603",
+    "small": "https://coin-images.coingecko.com/coins/images/102175239/small/tscmgapqpfx5j4hu8gbs3aj85s7a.?1785895603",
+    "large": "https://coin-images.coingecko.com/coins/images/102175239/large/tscmgapqpfx5j4hu8gbs3aj85s7a.?1785895603"
+   },
+   "banner_image_url": null,
+   "coingecko_coin_id": "stonk-3",
+   "websites": [
+    "https://www.stonkfun.xyz"
+   ],
+   "discord_url": null,
+   "farcaster_url": null,
+   "zora_url": null,
+   "telegram_handle": "StonkFunXyz",
+   "twitter_handle": "LaunchOnSF",
+   "description": "",
+   "gt_score": 82.06917891663927,
+   "gt_score_details": {
+    "pool": 85.714,
+    "transaction": 100.0,
+    "creation": 50.0,
+    "info": 100.0,
+    "holders": 87.5
+   },
+   "gt_verified": true,
+   "categories": [
+    "Defi"
+   ],
+   "gt_category_ids": [
+    "defi"
+   ],
+   "holders": {
+    "count": 53074,
+    "distribution_percentage": {
+     "top_10": "18.0258",
+     "11_20": "7.0728",
+     "21_40": "9.3307",
+     "rest": "65.5707"
+    },
+    "last_updated": "2026-09-11T06:00:01Z"
+   },
+   "mint_authority": "no",
+   "freeze_authority": "no",
+   "is_honeypot": "unknown",
+   "developer_address": "jjse5z4k1Ks5xKw2hs3a6zXCcLpvHLcafVQ4Ar82zkD",
+   "developer_holding_percentage": "0.0"
+  }
+ }
+}

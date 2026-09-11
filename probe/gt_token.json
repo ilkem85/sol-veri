@@ -1,0 +1,42 @@
+{
+ "data": {
+  "id": "solana_6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+  "type": "token",
+  "attributes": {
+   "address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+   "name": "STONK",
+   "symbol": "STONK",
+   "decimals": 9,
+   "image_url": "https://coin-images.coingecko.com/coins/images/102175239/large/tscmgapqpfx5j4hu8gbs3aj85s7a.?1785895603",
+   "banner_image_url": null,
+   "coingecko_coin_id": "stonk-3",
+   "total_supply": "855785326546117550.0",
+   "normalized_total_supply": "855785326.546118",
+   "price_usd": "0.2814559916",
+   "fdv_usd": "240865907.705983",
+   "total_reserve_in_usd": "7664340.152674368930496112677862684",
+   "volume_usd": {
+    "h24": "107818721.386184"
+   },
+   "market_cap_usd": "245393562.7667"
+  },
+  "relationships": {
+   "top_pools": {
+    "data": [
+     {
+      "id": "solana_zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+      "type": "pool"
+     },
+     {
+      "id": "solana_AfrddTGYwCVEQB1gxCAhR8i48o6qtxYqksdVkeLudEhg",
+      "type": "pool"
+     },
+     {
+      "id": "solana_7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+      "type": "pool"
+     }
+    ]
+   }
+  }
+ }
+}
