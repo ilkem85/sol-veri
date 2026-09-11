@@ -1,4 +1,5 @@
-# SOL TOPLAYICI V2
+# SOL TOPLAYICI V2.1
+# V2.1: GeckoTerminal yavaslatildi (12 sn, 429'da uyarlanir), gecko_yeni likidite on-filtresi kaldirildi
 # Solana yeni token ileri veri toplayici (GitHub Actions)
 # Evren: pair yasi <= 7 gun, likidite >= 10K USD (likidite bilgisi yoksa mcap >= 20K)
 # Kayit: snapshot, gorunurluk olaylari, holder/guvenlik, buyuk islemler, cuzdanlar, meta anlatilar
@@ -24,14 +25,16 @@ TAKIP_GUN = 10
 OLU_LIQ = 1000.0
 OLU_MCAP_BC = 5000.0
 
-GT_BUTCE = 45          # kosu basina max GeckoTerminal cagrisi
-GT_ARA = 6.5           # cagrilar arasi saniye (anahtarsiz limit ~10/dk)
+GT_BUTCE = 60          # kosu basina max GeckoTerminal cagrisi
+GT_ARA = [12.0]        # cagrilar arasi saniye; 429 gelirse otomatik artar
+GT_ARA_MAX = 20.0
+GT_429_MAX = 5         # bu kadar 429 sonrasi GeckoTerminal isi durur
 GT_YENI_SAYFA = 2
-GT_YENI_MAX = 10       # new_pools'tan rastgele eklenecek aday
+GT_YENI_MAX = 40       # new_pools'tan eklenecek max aday (filtre DS tarafinda)
 GT_MULTI_MAX = 6       # pools/multi cagri siniri (30 havuz/cagri)
 BALINA_USD = 1000      # islem ozeti esigi
 CUZDAN_USD = 2500      # ham cuzdan kaydi esigi
-MAX_SURE = 13 * 60     # bu sureden sonra yeni GeckoTerminal isi baslatma
+MAX_SURE = 14 * 60     # bu sureden sonra yeni GeckoTerminal isi baslatma
 DS_ARA_YAVAS = 1.1     # dakikada 60 limitli uclar icin
 ORDER_MAX = 30
 
@@ -100,7 +103,7 @@ def sure_doldu():
 def istek(url):
     try:
         req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (sol-toplayici-v2)",
+            "User-Agent": "Mozilla/5.0 (sol-toplayici-v2.1)",
             "Accept": "application/json",
         })
         with urllib.request.urlopen(req, timeout=25) as r:
@@ -131,7 +134,7 @@ def ds_get(yol, ara=0.3):
 def gt_get(yol):
     if SAYAC["gt"] >= GT_BUTCE:
         return 0, None
-    bekle = GT_ARA - (time.time() - GT_SON[0])
+    bekle = GT_ARA[0] - (time.time() - GT_SON[0])
     if bekle > 0:
         time.sleep(bekle)
     SAYAC["gt"] += 1
@@ -141,9 +144,12 @@ def gt_get(yol):
         return kod, d
     if kod == 429:
         SAYAC["gt429"] += 1
-        if SAYAC["gt429"] >= 3:
+        GT_ARA[0] = min(GT_ARA[0] * 1.3, GT_ARA_MAX)
+        if SAYAC["gt429"] >= GT_429_MAX:
             SAYAC["gt"] = GT_BUTCE
-        time.sleep(25)
+        else:
+            time.sleep(60)
+        GT_SON[0] = time.time()
     elif kod != 404:
         HATA.append("GT %s %s" % (kod, yol[:60]))
     return kod, None
@@ -283,7 +289,7 @@ def gecko_kesif(aday):
         for pool in (d or {}).get("data") or []:
             liq = fnum((pool.get("attributes") or {}).get("reserve_in_usd")) or 0.0
             t = gecko_token(pool)
-            if t and liq >= MIN_LIQ:
+            if t:
                 bulunan[t] = liq
     secim = list(bulunan)
     random.shuffle(secim)
@@ -565,7 +571,7 @@ def main():
             gorev.append((3, yeni_once, "info", t))
         if so == 0:
             gorev.append((0, yeni_once, "trade", t))
-        elif yas < 48 * 3600 and now - so >= 2 * 3600 - 600:
+        elif yas < 48 * 3600 and now - so >= 3 * 3600 - 600:
             gorev.append((1, yeni_once, "trade", t))
         elif now - so >= 12 * 3600 - 600:
             gorev.append((2, yeni_once, "trade", t))
@@ -613,8 +619,8 @@ def main():
         len(HATA), sure]])
 
     print("=" * 46)
-    print("SOL TOPLAYICI V2 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
-    print("Cagri: DS=%d GT=%d (429: %d)" % (SAYAC["ds"], SAYAC["gt"], SAYAC["gt429"]))
+    print("SOL TOPLAYICI V2.1 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
+    print("Cagri: DS=%d GT=%d (429: %d, son ara %.1fs)" % (SAYAC["ds"], SAYAC["gt"], SAYAC["gt429"], GT_ARA[0]))
     print("Aday: %d | Yeni takip: %d | Aktif: %d" % (len(aday), len(yeniler), aktif))
     print("Snap: %d | Info: %d | Balina: %d | Cuzdan: %d | Olu: %d"
           % (len(satirlar), len(info), len(balina), len(CUZDAN), n_olu))
