@@ -75,7 +75,8 @@ Bu yapi hem piyasa rejimini (memecoin sezonu, genel cokus) hem de yas etkisini n
 
 **H5 - Kirmizi bayrak (dagilim ve yetki)**
 - t0: tokenin ilk info satiri
-- Sinyal: top10 >= %50 VEYA dev_yuzde >= %10 VEYA mint_yetki = yes VEYA freeze_yetki = yes
+- Sinyal: dev_yuzde >= %10 VEYA mint_yetki = yes VEYA freeze_yetki = yes
+- (2026-09-18 degisikligi: top10 kosulu cikarildi, bkz. Bolum 10)
 - Bos alanlar bayrak sayilmaz, "bilinmiyor" olarak raporlanir.
 
 **H6 - Sisme hacim (blowoff)**
@@ -127,6 +128,7 @@ Asagidakiler serbestce incelenebilir ama hicbiri dogrudan karar dogurmaz:
 - gt_skor ve alt skorlari
 - Holder sayisi buyume hizi
 - Kilitli likidite yuzdesi
+- Ilk 10 cuzdan payi (top10), bonding curve / AMM ayrimi yapilarak
 - Trend 5m/6h/24h siralari
 - Boost miktari, reklam gosterim sayisi, sosyal link sayisi
 
@@ -164,10 +166,11 @@ Amac: toplayicinin sagligini ve orneklemin buyumesini izlemek, sonucu izlememek.
 
 - Bu belge sadece sonuclara bakilmadan once degistirilebilir.
 - Izin verilen tek degisiklik sebebi veri kapsami veya hatadir (ornek: bir alan hep bos geliyor, bir esik veri yapisi yuzunden anlamsiz).
-- Ozel not (H5): Ilk haftalik kor raporda top10 medyani %50'yi asarsa (havuz veya bonding curve hesabi dagilima dahil ediliyor olabilir), esik sonuclara bakilmadan once yeniden tanimlanabilir.
+- Ozel not (H5): Bu maddede ongorulen kontrol 2026-09-18'de yapildi ve uygulandi (Bolum 10). Madde kapandi.
 - Her degisiklik asagidaki gunluge tarih ve sebep ile yazilir ve ayri commit olarak kaydedilir.
 - Sonuclar goruldukten sonra eklenen her sey Bolum 7 (kesif) statusundedir.
 
 ## 10. Degisiklik gunlugu
 
 - 2026-09-11: V1 olusturuldu (takip 30 gun, R336 ikincil olcu, iki planli bakis ve haftalik kor rapor dahil).
+- 2026-09-18: H5'ten top10 (ilk 10 cuzdan payi) kosulu cikarildi. Sebep: 1. haftalik kor raporda top10 medyani %60,2 cikti; bonding curve'deki tokenlarda medyan %94,5, AMM havuzundakilerde %46,8 ve bazi degerler %100'u asiyor. Alan cuzdan yogunlasmasini degil, buyuk olcude tokenin asamasini olcuyor. top10 Bolum 7'ye kesif degiskeni olarak tasindi. Degisiklik sonuclara bakilmadan yapildi; hicbir getiri hesaplanmamistir.
