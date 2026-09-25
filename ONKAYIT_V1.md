@@ -92,8 +92,9 @@ Bu yapi hem piyasa rejimini (memecoin sezonu, genel cokus) hem de yas etkisini n
 - Profil siparisi tek basina sinyal sayilmaz.
 
 **H8 - Topluluk devralmasi (CTO)**
-- t0: tokenin ilk snapshot'i
-- Sinyal: t0'dan once cto olayi veya siparis_communityTakeover kaydi
+- t0: token evrendeyken gorulen ilk cto olayi veya siparis_communityTakeover kaydinin ani (olay tabanli, H3 ve H4 ile ayni yapi)
+- Sinyal: olayin kendisi. Kontrol, ayni tabakada o anda CTO olayi olmayan tokenlar.
+- (2026-09-25 degisikligi: onceki tanim sadece kesif aninda CTO'su olan tokenlari sayiyordu, bkz. Bolum 10)
 
 ## 5. Karar kurallari
 
@@ -174,3 +175,4 @@ Amac: toplayicinin sagligini ve orneklemin buyumesini izlemek, sonucu izlememek.
 
 - 2026-09-11: V1 olusturuldu (takip 30 gun, R336 ikincil olcu, iki planli bakis ve haftalik kor rapor dahil).
 - 2026-09-18: H5'ten top10 (ilk 10 cuzdan payi) kosulu cikarildi. Sebep: 1. haftalik kor raporda top10 medyani %60,2 cikti; bonding curve'deki tokenlarda medyan %94,5, AMM havuzundakilerde %46,8 ve bazi degerler %100'u asiyor. Alan cuzdan yogunlasmasini degil, buyuk olcude tokenin asamasini olcuyor. top10 Bolum 7'ye kesif degiskeni olarak tasindi. Degisiklik sonuclara bakilmadan yapildi; hicbir getiri hesaplanmamistir.
+- 2026-09-25: H8 olay tabanli hale getirildi. Sebep: onceki tanim (kesif aninda CTO kaydi olmasi) 15 gunde sadece 12 pencere ici sinyal uretti; ayni donemde evrene girdikten SONRA CTO alan 69 token tanim disinda kaldi. Bu bir kapsam kusuru: H3 ve H4 olay tabanli kurulmusken H8 yanlislikla kesif anina baglanmisti. Yeni tanimla ayni donemde 43 pencere ici sinyal olusuyor. Takvim degismedi. Degisiklik sonuclara bakilmadan yapildi; hicbir getiri hesaplanmamistir.
