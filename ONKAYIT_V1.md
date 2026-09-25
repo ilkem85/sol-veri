@@ -36,14 +36,17 @@ Bu belgenin amaci: veriyi gormeden neyi, nasil test edecegimizi ve hangi sonucta
 - Likidite bos (bonding curve) ise tek yon maliyet %2 kabul edilir
 - Gidis-donus maliyet = 2 x tek yon
 
-**Ana sonuc olcusu:** 72 saatlik net getiri (R72). Ikincil (karar vermez, sadece rapor): R24, R168, R336 (14 gun), 14 ve 30 gunluk hayatta kalma orani.
+**Ana sonuc olcusu:** 72 saatlik net getiri (R72). Getiriler, sinyal/kontrol ayrimi yapilmadan tum havuzun %1 ve %99 yuzdeliklerinde kirpilir (winsorize); FARK bu kirpilmis getirilerle hesaplanir. Ham (kirpilmamis) FARK ikincil olarak raporlanir. Ikincil (karar vermez, sadece rapor): R24, R168, R336 (14 gun), 14 ve 30 gunluk hayatta kalma orani.
 
 ## 3. Kontrol grubu ve FARK
 
 Her sinyal gozlemi, ayni zamanda piyasadaki benzer tokenlarla karsilastirilir:
 
-- **Tabaka:** ayni UTC gunu + ayni yas dilimi. Yas dilimleri (t0 anindaki pair yasi): 0-6s, 6-24s, 1-3g, 3-7g.
-- **Kontrol:** ayni tabakada, sinyali olmayan ve t0'a +-1 saat icinde snapshot'i bulunan tum tokenlar. Kontrol getirisi ayni maliyet ve olum kurallariyla hesaplanir.
+- **Tabaka:** ayni UTC gunu + ayni yas dilimi + ayni takip asamasi.
+  - Yas dilimleri (t0 anindaki pair yasi): 0-6s, 6-24s, 1-3g, 3-7g, 7g+.
+  - Takip asamasi (t0'in tokenin takibinde nereye denk geldigi): ilk gozlem, <6s, 6-24s, 1-3g, 3g+.
+- **Kontrol:** ayni tabakada, sinyali olmayan ve t0'a +-1 saat icinde snapshot'i bulunan tum tokenlar. Bu pencerede 5'ten az kontrol varsa +-3 saate, yine yetmezse ayni gune genisletilir. Kontrol getirisi ayni maliyet ve olum kurallariyla hesaplanir.
+- (2026-09-25 degisikligi: takip asamasi esleslemesi ve kademeli pencere eklendi, bkz. Bolum 10)
 - **FARK** = ortalama(sinyal net getirisi - eslesmis kontrol ortalamasi)
 
 Bu yapi hem piyasa rejimini (memecoin sezonu, genel cokus) hem de yas etkisini notrlestirir.
@@ -107,7 +110,7 @@ Bir hipotezin **GECTI** sayilmasi icin asagidakilerin HEPSI saglanmali:
    - IKI YONLU icin aralik 0'i icermemeli
 3. **Permutasyon:** sinyal etiketleri tabaka icinde karistirilir (10.000 tekrar). 8 hipotez icin Holm duzeltmeli p < 0,025 (toplam 0,05'lik hata payi iki bakisa esit bolundu).
 4. **Zaman tutarliligi:** giris gunleri ardisik 3 esit doneme bolunur; FARK 3 donemde de ayni yonde olmali.
-5. **Kuyruk saglamligi:** FARK'in isareti su iki durumda da korunmali: (a) sonucu en cok destekleyen tek gozlem cikarildiginda, (b) getiriler %1-%99 araligina kirpildiginda.
+5. **Kuyruk saglamligi:** Sonucu en cok destekleyen tek gozlem cikarildiginda FARK'in isareti korunmali.
 6. **Ekonomik anlamlilik:** AL icin net FARK >= +%5; KACIN icin <= -%5; IKI YONLU icin |FARK| >= %5.
 7. **Uygulanabilirlik:** sinyal gunde ortalama 5'ten fazla ise, her gunun ilk 3 sinyalinden olusan alt kume de 2. ve 4. kurallari gecmeli.
 
@@ -117,6 +120,7 @@ Bir hipotezin **GECTI** sayilmasi icin asagidakilerin HEPSI saglanmali:
 
 - **AL hipotezi GECTI:** Canli para yok. Once 2 haftalik ileri kagit takibi yapilir. Kural: n >= 30 ve ileri FARK > 0 ise kaybi goze alinabilecek kucuk pozisyonla canli teste gecilir; FARK <= 0 ise durulur.
 - **KACIN hipotezi GECTI:** Filtre olarak sadece bundan sonraki ileri testlerde kullanilir. Gecmis veride "filtre + sinyal" optimizasyonu yapilmaz.
+- **Kuyruga bagimli bulgu:** Kirpilmis FARK gecemedigi halde ham FARK 2. ve 6. kurallari saglarsa, sonuc GECTI sayilmaz; "kuyruga bagimli bulgu" olarak not edilir ve sadece ileri kagit takibinde izlenir.
 - **IKI YONLU hipotez GECTI:** Yonune gore AL veya KACIN gibi ele alinir, ayni ileri test kuraliyla.
 - **2. bakista da hicbiri gecmezse:** Onaylayici kisim kapanir. Yeni esik taramasi yapilmaz. Sadece Bolum 7'deki kesif bulgulari yeni ileri veriyle test edilebilir; o da gecmezse proje kapanir.
 
@@ -175,4 +179,6 @@ Amac: toplayicinin sagligini ve orneklemin buyumesini izlemek, sonucu izlememek.
 
 - 2026-09-11: V1 olusturuldu (takip 30 gun, R336 ikincil olcu, iki planli bakis ve haftalik kor rapor dahil).
 - 2026-09-18: H5'ten top10 (ilk 10 cuzdan payi) kosulu cikarildi. Sebep: 1. haftalik kor raporda top10 medyani %60,2 cikti; bonding curve'deki tokenlarda medyan %94,5, AMM havuzundakilerde %46,8 ve bazi degerler %100'u asiyor. Alan cuzdan yogunlasmasini degil, buyuk olcude tokenin asamasini olcuyor. top10 Bolum 7'ye kesif degiskeni olarak tasindi. Degisiklik sonuclara bakilmadan yapildi; hicbir getiri hesaplanmamistir.
+- 2026-09-25: Kontrol eslesmesine takip asamasi eklendi ve pencere kademeli hale getirildi. Sebep: analiz motoru sentetik veriyle test edilirken, ilk gozlemde tetiklenen hipotezlerin (H1, H2, H5, H7) kontrol havuzunun buyuk olcude ileri asamadaki satirlardan olustugu gorüldü. Etkisi olmayan hipotezlerde bile +%95'e varan sahte FARK uretiyordu. Duzeltmeden sonra ayni sentetik veride sahte etki kayboldu, yerlestirilen gercek etki yakalandi. Gercek getirilere bakilmamistir.
+- 2026-09-25: Ana istatistik %1-%99 kirpilmis ortalama olarak degistirildi; ham ortalama ikincil. Sebep: evren genelinde (grup ayrimi yapilmadan) 72 saatlik net getirilerin %53'u -%100, medyan -%100; ham standart sapma 38,4 iken kirpilmis 0,54. En buyuk tek getiri ~13.900 kat. Ham ortalama tek bir satirin insafina kaliyor ve 5. kurali neredeyse hic gecirmiyordu. Kuyruga bagimli bulgular icin Bolum 6'ya ayri kural eklendi. Sinyal ve kontrol gruplarinin getirilerine bakilmamistir.
 - 2026-09-25: H8 olay tabanli hale getirildi. Sebep: onceki tanim (kesif aninda CTO kaydi olmasi) 15 gunde sadece 12 pencere ici sinyal uretti; ayni donemde evrene girdikten SONRA CTO alan 69 token tanim disinda kaldi. Bu bir kapsam kusuru: H3 ve H4 olay tabanli kurulmusken H8 yanlislikla kesif anina baglanmisti. Yeni tanimla ayni donemde 43 pencere ici sinyal olusuyor. Takvim degismedi. Degisiklik sonuclara bakilmadan yapildi; hicbir getiri hesaplanmamistir.
