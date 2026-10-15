@@ -1,0 +1,39 @@
+name: Sol Mum Toplayici V1
+
+on:
+  schedule:
+    - cron: "22 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sol-mum
+  cancel-in-progress: false
+
+jobs:
+  mum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Repo indir
+        uses: actions/checkout@v5
+
+      - name: Mum topla
+        run: python3 mum_toplayici_v1.py
+
+      - name: Mumlari kaydet
+        run: |
+          git config user.name "sol-mum-bot"
+          git config user.email "sol-mum-bot@users.noreply.github.com"
+          git add data3 state3
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok"
+            exit 0
+          fi
+          git commit -m "mum $(date -u +%Y-%m-%d_%H%M)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            sleep 15
+          done
