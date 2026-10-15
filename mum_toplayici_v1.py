@@ -1,4 +1,5 @@
-# MUM TOPLAYICI V1
+# MUM TOPLAYICI V1.1
+# V1.1: 429 sonrasi bekleme 60 -> 30 sn, yavaslama carpani 1.4 -> 1.2; baslangic araligi 8 sn; istek siniri 110.
 # Evrendeki her token icin GeckoTerminal'den gecmise donuk mum (OHLCV) toplar.
 #   m1 : 1 dakikalik mumlar, ilk gorulmeden itibaren ~16,7 saat (token ilk+17 saati gectiyse)
 #   m15: 15 dakikalik mumlar, ilk gorulmeden itibaren ~10,4 gun (token ilk+10,5 gunu gectiyse)
@@ -24,11 +25,11 @@ DURUM = "state3/mum_durum.csv"
 KOK = "data3/mum"
 LOG = "data3/mum_log.csv"
 
-ARA = [7.0]            # istekler arasi saniye; 429 gelirse artar
-ARA_MAX = 15.0
-MAX_CAGRI = 100        # kosu basina istek siniri
+ARA = [8.0]            # istekler arasi saniye; 429 gelirse artar
+ARA_MAX = 14.0
+MAX_CAGRI = 110        # kosu basina istek siniri
 MAX_SURE = 14 * 60     # bu sureden sonra yeni istek baslatma
-MAX_429 = 4
+MAX_429 = 6
 M1_PENCERE = 17 * 3600
 M15_PENCERE = int(10.5 * 86400)
 
@@ -44,7 +45,7 @@ def get(url):
     SAYAC["cagri"] += 1
     try:
         req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (sol-mum-toplayici-v1)",
+            "User-Agent": "Mozilla/5.0 (sol-mum-toplayici-v1.1)",
             "Accept": "application/json",
         })
         with urllib.request.urlopen(req, timeout=25) as r:
@@ -54,8 +55,8 @@ def get(url):
         SON_ISTEK[0] = time.time()
         if e.code == 429:
             SAYAC["429"] += 1
-            ARA[0] = min(ARA[0] * 1.4, ARA_MAX)
-            time.sleep(60)
+            ARA[0] = min(ARA[0] * 1.2, ARA_MAX)
+            time.sleep(30)
             SON_ISTEK[0] = time.time()
         elif e.code == 404:
             SAYAC["404"] += 1
@@ -213,7 +214,7 @@ def main():
                     SAYAC["mum"], SAYAC["cagri"], SAYAC["429"], SAYAC["404"], SAYAC["hata"],
                     round(ARA[0], 1), sure])
     print("=" * 46)
-    print("MUM TOPLAYICI V1 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
+    print("MUM TOPLAYICI V1.1 | " + zaman.strftime("%Y-%m-%d %H:%M UTC"))
     print("Yeni snapshot dosyasi: %d | Havuz kaydi: %d" % (n_yeni_dosya, len(havuz)))
     print("Gorev: %d | Yapilan: %d | Kalan: %d" % (len(liste), yapilan, kalan))
     print("Mum: %d | Istek: %d | 429: %d | 404: %d | Hata: %d | Sure: %ss"
